@@ -1,0 +1,32 @@
+.main-content{
+    width: 100%;
+    height: 400px;
+    margin-top: -23px;
+    border-radius: 20px;
+    background: white;
+    overflow: hidden;
+    .item{
+        width: 100%;
+        margin-top: 20px;
+        .list{
+            width: 100%;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            box-sizing: border-box;
+            padding: 0 22px;
+            &>p{
+                height: 100%;
+                display: flex;
+                align-items: center;
+                span{
+                    margin-right: 18px;
+                }
+            }
+            span{
+                font-size: 18px;
+            }
+        }
+    }
+}

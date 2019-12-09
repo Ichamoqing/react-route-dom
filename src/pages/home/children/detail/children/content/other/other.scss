@@ -1,0 +1,39 @@
+.swiper-title{
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 18px;
+    margin-top: 15px;
+    background: white;
+    .title{
+        width: 100%;
+        height: 44px;
+        line-height: 44px;
+        color: #333333;
+        font-size: 18px;
+    }
+    .swiper-container{
+        width: 100%;
+        height: 166px;
+        margin-top: 0;
+        .swiper-slide{
+            width: 160px;
+            height: 100%;
+            padding: 0;
+            margin-right: 12px;
+            img{
+                width: 100%;
+                height: 120px;
+            }
+            .text-content{
+                width: 100%;
+                height: 46px;
+                line-height: 46px;
+                text-overflow: ellipsis;
+                overflow: hidden;
+                white-space: nowrap;
+                font-size: 16px;
+                color: black;
+            }
+        }
+    }
+}

@@ -1,0 +1,76 @@
+.mine-info{
+    width: 100%;
+    height: 270px;
+    background: #3D7EFF;
+}
+.header-mine{
+    width: 100%;
+    height: 44px;
+    background: #3D7EFF;
+    font-size: 25px;
+    color: white;
+    font-weight: 700;
+    box-sizing: border-box;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+}
+.user-info{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0 25px;
+    .user-img{
+        width: 72px;
+        height: 72px;
+        border-radius: 50%;
+        overflow: hidden;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .indexpage{
+        width: 65px;
+        height: 100%;
+        font-size: 12px;
+        color: white;
+        line-height: 90px;
+        text-align: center;
+    }
+    .username{
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: white;
+        font-size: 14px;
+        height: 100%;
+        box-sizing: border-box;
+        padding-left: 10px;
+        &>p{
+            margin: 5px 0;
+        }
+    }
+}
+.desc-info{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    &>div{
+        font-size:16px;
+        color: white;
+        font-weight: 700;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        &>p{
+            margin: 5px 0;
+        }
+    }
+}

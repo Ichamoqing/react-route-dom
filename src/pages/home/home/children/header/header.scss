@@ -1,0 +1,27 @@
+.header{
+    width: 100%;
+    height: 44px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0 16px;
+    h1{
+        font-size: 25px;
+        color: #333333;
+    }
+    .icon{
+        display: flex;
+        justify-content: space-around;
+        height: 100%;
+        align-items: center;
+        width: 72px;
+        &>span{
+            color: #333333;
+        }
+    }
+}

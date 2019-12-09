@@ -1,0 +1,89 @@
+.message-item{
+    width: 330px;
+    margin: 30px auto 0;
+    .message-list{
+        box-shadow: 0 0 60px 0 hsla(0,0%,89%,.5);
+        border-radius: 6px;
+        width: 300px;
+        padding: 16px 14px 16px 16px;
+        margin-top: 20px;
+        background: white;
+        .person-from{
+            width: 100%;
+            line-height: 12px;
+            margin-top: 6px;
+            color: #c6c6c6;
+            font-size: 12px;
+            span{
+                margin-right: 6px;
+            }
+        }
+        .personal_abstract{
+            width: 100%;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 2;
+            overflow: hidden;
+            font-family: PingFangSC-Regular;
+            font-size: 16px;
+            color: #2d3f56;
+            letter-spacing: 0;
+            text-align: left;
+            margin-top: 14px;
+            margin-bottom: 10px;
+            line-height: 20px;
+        }
+        .groundcoverImg{
+            width: 100%;
+            border-radius: 8px;
+            overflow: hidden;
+            height: 170px;
+            img{
+                width: 100%;
+            }
+        }
+        .groundTitle{
+            font-size: 16px;
+            color: #0f2540;
+            letter-spacing: 0;
+            text-align: justify;
+            line-height: 20px;
+            margin-top: 10px;
+            width: 100%;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+        .personal_start_tab{
+            width: 100%;
+            margin-top: 14px;
+            display: flex;
+            .personal_start_tab_li{
+                font-size: 12px;
+                color: #9bc2d9;
+                letter-spacing: 0;
+                line-height: 12px;
+                padding: 5px 9px;
+                background: #f5f7f9;
+                border-radius: 100px;
+                margin-right: 10px;
+                margin-bottom: 5px;
+            }
+        }
+        .personal_start_bottom{
+            padding-top: 9px;
+            width: 100%;
+            height: 16px;
+            display: flex;
+            .total_number{
+                font-size: 12px;
+                color: #c9d6de;
+                letter-spacing: 0;
+                line-height: 12px;
+                margin-left: 8px;
+                margin-right: 24px;
+                margin-top: 2px;
+            }
+        }
+    }
+}

@@ -1,0 +1,2 @@
+(this["webpackJsonprouter-react"]=this["webpackJsonprouter-react"]||[]).push([[12],{269:function(t,e,n){"use strict";n.r(e),n.d(e,"default",(function(){return l}));var r=n(15),a=n(16),c=n(21),u=n(19),i=n(20),o=n(0),s=n.n(o),l=function(t){function e(){return Object(r.a)(this,e),Object(c.a)(this,Object(u.a)(e).apply(this,arguments))}return Object(i.a)(e,t),Object(a.a)(e,[{key:"render",value:function(){return s.a.createElement("div",null,s.a.createElement("h1",null,"404"))}}]),e}(o.Component)}}]);
+//# sourceMappingURL=12.8107191d.chunk.js.map

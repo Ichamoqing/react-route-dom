@@ -1,0 +1,94 @@
+.content{
+    width: 100%;
+    position: absolute;
+    top: 44px;
+    left: 0;
+    bottom: 49px;
+    overflow: hidden;
+    background: #F5F5F5;
+    .wrap{
+        overflow: hidden;
+    }
+}
+.list{
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+    .item{
+        width:100%;
+        height: 165px;
+        background: white;
+        margin-top: 25px;
+        border-radius: 10px;
+        box-sizing: border-box;
+        overflow: hidden;
+        .item-desc{
+            width: 100%;
+            height: 95px;
+            box-sizing: border-box;
+            padding: 0 18px;
+            margin-top: 20px;
+            display: flex;
+            .item-img{
+                width: 95px;
+                height: 95px;
+                border-radius: 5px;
+                overflow: hidden;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .item-content{
+                margin-left: 18px;
+                width: 185px;
+                p:nth-of-type(1){
+                    font-size: 16px;
+                    line-height: 22px;
+                    color: #0F2540;
+                }
+                p:nth-of-type(2){
+                    margin-top: 13px;
+                    font-size: 14px;
+                    color: #BCBCBC;
+                }   
+            }
+        }
+        .item-info{
+            width: 100%;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            box-sizing: border-box;
+            padding: 0 18px;
+            justify-content: space-between;
+            .thumbs{
+                width: 92px;
+                height: 20px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                color: #cdcdcd;
+                span{
+                    font-size: 14px;
+                    i{
+                        margin-left: 10px;
+                    }
+                }
+            }
+            .thumbs-info{
+                .thumbs-date{
+                    margin-right: 5px;   
+                }
+                .thumbs-type{
+                    margin-left: 5px;
+                }
+            }
+        }
+    }
+}
+.bottom-line{
+    width: 100%;
+    height: 90px;
+    background: #F5F5F5;
+}

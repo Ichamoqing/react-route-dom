@@ -1,0 +1,244 @@
+.pages{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: white;
+    .content{
+        width: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        overflow: hidden;
+        z-index: 20;
+        bottom: 0px;
+        background: white;
+    }
+}
+
+.artical_banner{
+    width: 100%;
+    height: 250px;
+    img{
+        width: 100%;
+        height: 100%;
+    }
+}
+.container{
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 14px;
+    margin-top: 20px;
+    background: #fff;
+    .ArticleDetails_author{
+        padding-left: 22px;
+        padding-right: 22px;
+        .ArticleTop{
+            width: 100%;
+            box-sizing: border-box;
+            display: flex;
+            .ArticleTop_img_box{
+                width: 45px;
+                height: 45px;
+                box-sizing: border-box;
+                border: 1px solid #eeeff1;
+                border-radius: 50%;
+                overflow: hidden;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .ArticleTop_center{
+                height: 45px;
+                line-height:45px;
+                font-family: HelveticaNeue-Medium;
+                font-weight: 700;
+                font-size: 14px;
+                color: #435771;
+                letter-spacing: 0;
+                margin-left: 10px;
+                width: 130px;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+            }
+        }
+    }
+    .article{
+        width: 100%;
+        box-sizing: border-box;
+        margin-bottom: 30px;
+        padding: 0 22px;
+        .articleTitle{
+            width: 100%;
+            p{
+                margin-bottom: 17px;
+                font-size: 22px;
+                color: #0f2540;
+                letter-spacing: 0;
+                line-height: 32px;
+                font-weight: 700;
+                text-align: justify;
+            }
+            .article_from_time{
+                font-size: 12px;
+                color: #c6c6c6;
+                letter-spacing: 0;
+                line-height: 12px;
+            }   
+        }
+        .article-text{
+            margin-bottom: 20px;
+            .TextText{
+                width: 100%;
+                padding-top:20px;
+                .ArticleDetails_content{
+                    line-height: 26px;
+                    font-size: 16px;
+                    color: #363636;
+                    text-align: justify;
+                    p,div{
+                        font-family: PingFangSC-Regular;
+                        font-size: 16px;
+                        color: #444;
+                        letter-spacing: 0;
+                        line-height: 26px!important;
+                        img{
+                            width: 114%;
+                            max-width: 114%;
+                            left: -7%;
+                            position: relative;
+                            height: auto;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .pointsList{
+        width: 100%;
+        .lovePoints_box{
+            width: 100%;
+            .point_wrap_box{
+                width: 46px;
+                height: 46px;
+                line-height: 46px;
+                text-align: center;
+                border-radius: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background: #cfd8e2;
+                box-shadow: 0 0 60px 0 rgba(207,216,226,.37);
+                margin: 0 auto;
+                .shoucang{
+                    font-size: 17px;
+                    color: #fff;
+                }
+            }
+            .pointsTotal{
+                width: 100%;
+                text-align: center;
+                font-size: 12px;
+                color: #c6c6c6;
+                letter-spacing: 0;
+                line-height: 12px;
+                margin-top: 10px;
+                margin-bottom: 10px;
+            }
+            .point_list_ul{
+                width: 100%;
+                max-height: 36px;
+                text-align: center;
+                .point_list_ul_li{
+                    width: 37px;
+                    height: 37px;
+                    display: inline-block;
+                    border-radius: 50%;
+                    overflow: hidden;
+                    margin-left: 6px;
+                    border: 1px solid #eeeff1;
+                    box-sizing: border-box;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                .point_list_ul_li_last{
+                    width: 37px;
+                    height: 37px;
+                    display: inline-block;
+                    border-radius: 50%;
+                    line-height: 37px;
+                    text-align: center;
+                    background-image: linear-gradient(45deg,#b5c1d2,#e7effb);
+                    vertical-align: top;
+                    margin-left: 6px;
+                    .point_list_ul_li_img_total{
+                        font-size: 12px;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+    .articlePadding{
+        box-sizing: border-box;
+        width: 100%;
+        padding: 0 22px;
+        .maybeYouLike{
+            font-size: 14px;
+            color: #0f2540;
+            letter-spacing: 0;
+            line-height: 14px;
+            font-weight: 700;
+            margin-bottom: 20px;
+            margin-top: 20px;
+        }
+        .recommendArticles{
+            li{
+                margin-bottom: 20px;
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: nowrap;
+                .img-wrap-box{
+                    width: 94px;
+                    height: 94px;
+                    border-radius: 8px;
+                    margin-right: 16px;
+                    overflow: hidden;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                .articleInfo{
+                    justify-content: center;
+                    flex: 1;
+                    flex-direction: column;
+                    display: flex;
+                    .articleTitle{
+                        display: -webkit-box;
+                        -webkit-box-orient: vertical;
+                        -webkit-line-clamp: 2;
+                        overflow: hidden;
+                        font-size: 16px;
+                        margin-bottom: 10px;
+                        color: #0f2540;
+                        line-height: 20px;
+                        font-weight: 700;
+                    }
+                    .author{
+                        font-size: 12px;
+                        color: #c6c6c6;
+                        letter-spacing: 0;
+                        line-height: 12px;
+                    }
+                }
+            }
+        }
+    }
+}
