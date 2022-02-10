@@ -88,7 +88,7 @@
   },
   "devDependencies": {
     "customize-cra": "^0.9.1",
-    "node-sass": "^4.13.0",
+    "node-sass": "^7.0.0",
     "postcss-pxtorem": "^4.0.1",
     "react-app-rewired": "^2.1.5"
   },
